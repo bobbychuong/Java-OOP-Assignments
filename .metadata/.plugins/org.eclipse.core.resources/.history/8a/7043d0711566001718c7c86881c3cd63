@@ -1,0 +1,5 @@
+package zookeeper.codingdojo.com;
+
+public class Mammal {
+
+}

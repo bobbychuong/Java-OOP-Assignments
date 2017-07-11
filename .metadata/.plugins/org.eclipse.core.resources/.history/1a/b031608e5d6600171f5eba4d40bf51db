@@ -1,0 +1,12 @@
+package zookeeper.codingdojo.com;
+
+public class GorillaTest {
+
+	public static void main(String[] args) {
+		Gorilla m = new Gorilla();
+		m.throwing();
+		m.displayEnergy();
+
+	}
+
+}

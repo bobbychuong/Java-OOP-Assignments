@@ -1,0 +1,14 @@
+package com.codingdojo.zookeeper;
+
+public class Gorilla extends Mammal {
+	public void throwing() {
+		System.out.println("Throwing shit at you");
+	}
+	public void eatBananas() {
+		System.out.println("Eating Bananas");
+	}
+	
+	public void climb() {
+		System.out.println("Climbing Tree");
+	}
+}

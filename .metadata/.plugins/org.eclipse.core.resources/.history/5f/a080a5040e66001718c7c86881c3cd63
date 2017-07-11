@@ -1,0 +1,14 @@
+package com.codingdojo.zookeeper;
+
+public class Gorilla extends Mammal{
+	public void throw () {
+		
+	}
+	public void eatBananas() {
+		
+	}
+	
+	public void climb() {
+		
+	}
+}

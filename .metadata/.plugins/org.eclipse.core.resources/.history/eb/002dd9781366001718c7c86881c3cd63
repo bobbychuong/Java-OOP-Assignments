@@ -1,0 +1,7 @@
+package com.codingdojo.zookeeper;
+
+class Mammal extends GorillaTest{
+	public void throwing() {
+		System.out.println("Throwing shit at you");
+	}
+}
