@@ -1,0 +1,14 @@
+package com.codingdojo.zookeeper;
+
+public class Dragon extends Mammal{
+	protected int energyLevel = 300;
+	public void fly() {
+		System.out.println("Flying madafackkaa!");
+	}
+	public void eatHumans() {
+		System.out.println("Eating Humans");
+	}
+	public void attackTown() {
+		System.out.println("Attacking Town, RUN!");
+	}
+}

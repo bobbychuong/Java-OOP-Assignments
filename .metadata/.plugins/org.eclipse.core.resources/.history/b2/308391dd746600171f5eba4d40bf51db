@@ -1,0 +1,13 @@
+package com.codingdojo.zookeeper;
+
+public class Dragon extends Mammal{
+	public void fly() {
+		System.out.println("Flying");
+	}
+	public void eatHumans() {
+		System.out.println("Eating Humans");
+	}
+	public void attackTown() {
+		System.out.println("Attacking Town, RUN!");
+	}
+}
