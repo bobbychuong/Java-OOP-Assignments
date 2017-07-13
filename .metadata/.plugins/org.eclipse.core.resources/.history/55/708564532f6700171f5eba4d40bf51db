@@ -1,0 +1,16 @@
+package com.codingdojo.objectmaster;
+
+public class HumanTest {
+
+	public static void main(String[] args) {
+		Human h = new Human();
+		Wizard w = new Wizard();
+		Ninja n = new Ninja();
+		Samurai s = new Samurai();
+		w.heal(w);
+		n.steal(h);
+		n.runAway(h);
+		s.deathBlow(h);
+	}
+
+}

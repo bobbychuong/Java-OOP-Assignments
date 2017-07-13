@@ -1,0 +1,10 @@
+package com.codingdojo.objectmaster;
+
+public class Wizard extends Human {
+	protected int health = 50;
+	protected int intelligence = 8;
+	public void heal(Human h) {
+		h.intelligence = h.intelligence - intelligence;
+		System.out.println("Healing other human:" + h.intelligence);
+	}
+}

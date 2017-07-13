@@ -1,0 +1,12 @@
+package com.codingdojo.objectmaster;
+
+public class Human {
+	protected int health = 100;
+	protected int strength = 3;
+	protected int stealth = 3;
+	protected int intelligence = 3;
+	public void attack(String Human) {
+		health = health - 100;
+		System.out.println("Attacking:" + health );
+	}
+}

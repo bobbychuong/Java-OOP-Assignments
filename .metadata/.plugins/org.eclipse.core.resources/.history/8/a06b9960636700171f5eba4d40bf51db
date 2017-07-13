@@ -1,0 +1,47 @@
+
+import java.util.*;
+// Create a BankAccount class
+// Attributes (string)account number,(long)checking balance,(long)savings balance.
+// Create a class member(static)that has the number of accounts created thus far.
+// Create a class member(static) that tracks the total amount of money stored in every account created.
+// Create a private method that returns a random 10 digit account number
+public class BankAccount {
+	// Following attributes
+	protected String accountNumber;
+	protected long checkingBalance;
+	protected long savingsBalance;
+	protected static int numAccs = 0;
+	protected static int totalAmt = 0;
+	protected String bankAccount;
+	public void BankAccount() {
+		numAccs++;
+		System.out.print("Number of accounts:" + numAccs);
+	}
+	public void RandAccNumber(){
+		Random rand = new Random();
+		for(int i=0;i<=10;i++) {
+			int r = rand.nextInt(10);
+			this.bankAccount += Integer.toString(r);
+			System.out.println("Account Number:" + this.bankAccount);
+		}
+    }
+	public void getChecking() {
+		System.out.println("Getting Checking Balance:" + checkingBalance);
+	}
+	public void getSaving() {
+		System.out.println("Getting Saving Balance:" + savingsBalance);
+	}
+	public void depositChecking(int checking) {
+		this.checkingBalance += checking;
+		this.checkingBalance += checking;
+		System.out.print("Depositing to checking:$" + this.checkingBalance);
+	}
+	public void depositSaving() {
+	}
+	public void withdraw() {
+		
+	}
+	public void totalAmount() {
+		
+	}
+}

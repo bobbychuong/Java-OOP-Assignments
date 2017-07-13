@@ -1,0 +1,11 @@
+
+public class PokemonTest {
+
+	public static void main(String[] args) {
+		Pokemon poke = new Pokemon();
+		
+		poke.setHealth(100);
+		System.out.println(poke.getHealth());
+	}
+
+}

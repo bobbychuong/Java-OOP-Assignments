@@ -1,8 +1,0 @@
-package zookeeper.codingdojo.com;
-
-public class Mammal {
-	private int energyLevel = 100;
-	public void displayEnergy() {
-		System.out.print("Animal's energy level:" + energyLevel);
-	}
-}

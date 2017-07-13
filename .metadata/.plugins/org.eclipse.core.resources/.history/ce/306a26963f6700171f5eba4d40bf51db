@@ -1,0 +1,11 @@
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		BankAccount ba = new BankAccount();
+		System.out.println(BankAccount.numAccs);
+		int randomnum = ba.RandAccNumber();
+		System.out.println("Bank Account #" + randomnum);
+	}
+
+}

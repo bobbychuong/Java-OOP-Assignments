@@ -1,0 +1,9 @@
+//Samurai: Add a method deathBlow(Human) that kills the other human, but reduces the samurai's health by half
+package com.codingdojo.objectmaster;
+
+public class Samurai extends Human{
+	protected int health = 200;
+	public void deathBlow(Human h) {	//
+		h.health = h.health/2 ;
+	}
+}

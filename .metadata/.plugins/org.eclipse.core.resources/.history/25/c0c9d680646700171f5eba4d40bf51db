@@ -1,0 +1,13 @@
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		BankAccount ba = new BankAccount();
+		ba.BankAccount();
+		ba.RandAccNumber();
+		ba.getChecking();
+		ba.getSaving();
+		ba.depositChecking(25);
+	}
+
+}
